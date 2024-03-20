@@ -1,0 +1,171 @@
+:root{
+    --black: black;
+    --red: #CC3636;
+    --milk: #E8E8E8;
+    --white: white;
+    --shadow: rgba(184.88, 19.26, 19.26, 0.29);
+    --back: rgba(204, 204, 204, 0.1);
+    --green: #4CAF50;
+    --fs-130px: 130px;
+    --fs-54px: 54px;
+    --fs-24px: 24px;
+    --fs-20px: 20px;
+    --fs-20px: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--milk);
+}
+header {
+    width: 80%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    background: url("../image/play.png") no-repeat scroll center center;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: var(--fs-20px);
+    margin-left: 30px;
+    font-family: 'SairaBold';
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'SairaBold';
+}
+
+header * {
+    display: flex;
+    align-items: center;
+}
+
+.aut {
+    padding: 15px 30px;
+    background-color: var(--red);
+}
+
+.first-block {
+    background-image: url("../image/Rec.png");
+    height: 900px;
+}
+
+.fight {
+    margin: 100px auto;
+    font-size: var(--fs-130px);
+    color: var(--white);
+    width: 80%;
+    font-family: 'SairaBold';
+}
+
+.red {
+    color: var(--red);
+}
+
+.card {
+    height: 180px;
+    width: 650px;
+    background-color: var(--white);
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 0px 13px 84px --shadow;
+}
+
+.card-block {
+    flex-direction: column;
+    margin: 35px auto;
+    text-align: center;
+}
+
+.card-text {
+    margin-top: 20px;
+    color:var(--red);
+    font-size: var(--fs-20px);
+    font-family: 'SairaBold';
+}
+
+.yoga {
+    margin: -4px auto;
+}
+
+.last-block {
+    width: 80%;
+    display: flex;
+    margin: 100px auto;
+    height: 700px;
+}
+
+.aut-button {
+    padding: 15px 30px;
+    width: 50px;
+    background-color: var(--red);
+    color: var(--white);
+    font-family: 'SairaBold';
+}
+
+.bold {
+    font-size: var(--fs-54px);
+    color:var(--black);
+    border-left: 5px var(--red) solid;
+    padding: 10px;
+    margin-top: 210px;
+    font-family: 'SairaBold';
+}
+
+.text {
+    font-size: var(--fs-24px);
+    margin: 30px 0;
+}
+
+.left {
+    float: left;
+}
+.w50 {
+    width: 50%;
+}
+.margin{
+    margin-right: 100px;
+}
+
+.card-sign {
+    display: flex;
+    margin: 250px auto;
+    width: 30%;
+    flex-direction: column;
+    padding: 30px;
+    background-color: var(--back);
+    border: 1px var(--black) solid;
+    border-radius: 35px;
+}
+
+input[type=text], input[type=password] {
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+}
+
+
+.signupbtn {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 14px 20px;
+    cursor: pointer;
+    border: 0;
+}
